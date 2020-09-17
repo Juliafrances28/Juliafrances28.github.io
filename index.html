@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+      H1 {
+        text-align: center;
+        font-size: 34px;
+        line-height: 48px;
+        margin: 0;
+        color: #11913c;
+      }
+
+      H2 {
+        text-align: center;
+        margin: 0;
+        font-size: 34;
+        line-height: 48px;
+        font-weight: lighter;
+        color: #f2b818;
+        box-shadow: 10px 5px 10px 5px #7c181c;
+      }
+
+      P {
+        vertical-align: 25px;
+        font-size: 18px;
+        text-align: center;
+        color: #f2b818;
+        padding: 20px;
+        line-height: 1.5;
+      }
+
+      img {
+        max-width: 100%;
+        display: Block;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 50px;
+        border-color: #7c181c;
+        background: linear-gradient();
+      }
+
+      .Salads {
+        color: #11913c;
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+        box-shadow: 10px 5px 5px #7c181c;
+      }
+
+      .varietybutton:hover {
+        background-color: #11913c;
+        color: #fff;
+        border: 1px solid #fff;
+        transition: right 2s ease-in-out 0.5s;
+        cursor: pointer;
+      }
+
+      .varietybutton {
+        border-radius: 30px;
+        text-align: center;
+        display: block;
+        margin: 20px 5opx;
+        color: #7c181c;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        cursor: 🥗;
+        border: 1px solid;
+        width: 100px;
+        position: relative;
+        top: 100%;
+        bottom: 100%;
+        left: 45%;
+        right: 45%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>
+      <strong> I love Salads 🥗 </strong>
+    </h1>
+
+    <h2>Salad are a Fantastic Health Option!!</h2>
+
+    <img
+      src=" https://aseasyasapplepie.com/wp-content/uploads/2015/10/fall-harvest-salad-with-apple-cider-vinaigrette.jpg "
+    />
+    <hr />
+    <div>
+      <p>
+        I love salads because they are a delicious healthy meal. There is
+        <em>truly a salad combo for everyone to love!!</em>
+        You don’t have to be super culinary. Just take out the chopping board
+        and pick your ingredients. Quantities can vary. It’s a perfect way to
+        use up the various fruits and veggies you have on hand. I like to make
+        seasonal salads, choosing to add berries in the Summer and apples in the
+        Fall.
+      </p>
+    </div>
+    <button class="varietybutton">Variety</button>
+    <p>
+      Pictured above is the
+      <span style="color: #7c181c">
+        fall-harvest-salad-with-apple-cider-vinaigrette.</span
+      >
+      Click here for this recipe.
+      <a
+        href="https://aseasyasapplepie.com/fall-harvest-salad-with-apple-cider-vinaigrette/"
+        target="_blank"
+        class="Salads"
+      >
+        Salads
+      </a>
+    </p>
+
+    <script>
+      function variety() {
+        let name = prompt("what is your name?");
+        let email = prompt("what is your email?");
+        let salad = prompt("What is your favorite salad?");
+        alert("Go Enjoy a Salad for Lunch 😎☀️ 🥗 ");
+      }
+
+      let varietybutton = document.querySelector(".varietybutton");
+      varietybutton.addEventListener("click", variety);
+    </script>
+  </body>
+</html>
