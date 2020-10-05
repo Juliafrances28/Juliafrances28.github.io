@@ -1,50 +1,95 @@
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
-I created a responsive portfolio using bootstrap
+Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
 
-## Steps
 
-I started off with the following files
+## Directions
 
-- `index.html`
+First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
 
-- `portfolio.html`
+* Create the following files files: `index.html`, `portfolio.html` and `contact.html`.
 
-- `contact.html`
+* Using Bootstrap, develop your portfolio site with the following items:
 
-# naviagtion bar
+   * A navbar
+   * A responsive layout
 
-- starting with index.html file I worked on the nav. bar
+   * Responsive images
 
-- makiing sure it was layout properly using the bootstrap using the bootstrap nav bar code.
+* The Bootstrap portfolio should minimize the use of media queries.
 
-- picking the nav bar code on bootstrap that incorporated <ul> <li> code so allow the links/page titles line up next to each other at one end of the nav bar
+* Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
 
-- Creating a brand icon on the right side
+### Hints
 
-- making sure it was the same on all three pages
+* Use Bootstrap's grid system (containers, rows, and columns). 
 
-- confirming that the links work
+* Use an HTML validation service to ensure that each page has valid HTML.
 
-# grid layout index. html
+### Minimum Requirements
 
-- Usign bootstrap I choose the code with the proper grid layout
+* Functional, deployed application 
+ <!-- Meaning the website runs? All site components work? It loads correctly? -->
 
-- Including containers, rows and col
+* GitHub repository with README describing the project
+<!-- still working on, but not hard  -->
 
-- I was able to add the proper spacing so that each my two rows had <div class="col-sm-4"> <div class="col-sm-8"> had two colums the smaller image col at 4 and the double sized paragraph col at 8
-  so the spacing for the row adds up to 12.
+* Navbar must be consistent on each page.     
+ <!-- Navbar is the same for all pages. --> //
 
-- This code also had <div> and classes.
+* Navbar on each page must contain links to Home/About, Contact, and Portfolio pages. 
+   <!-- Navbar links have the three correct headers --> //
 
-- It allowed me to add css styling inline style within the various tags
+* All links must work.
+   <!-- Right now my links work but the pages are not fully built beyond the navbar --> // 
 
-- I was able to input my <p> content and <img> with proper links
+* Must use semantic html. 
+ <!-- clarify semantic? html is the correct order. r?  -->
 
-# grid layout contact.html
+* Each page must have valid and correct HTML. (use a validation service)
+ <!--  find one of these services?  -->
 
-- I used the cardlayout creating a container
+* Must contain your personalized information. (bio, name, images, links to social media, etc.)
+  <!-- https://www.linkedin.com/in/juliafhoran/  --> //
+  <!-- https://github.com/Juliafrances28 --> //
 
-- including a header section for my name and a section for the require text
+* Must properly utilize Bootstrap components and grid system.
+  <!-- did I use the grid correctly? --> //
 
-- I finshed the contact page with a <img> of girl coding
+### Bonus
+
+* Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
+  
+
+## Commit Early and Often
+
+One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+
+* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+
+* Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
+
+Follow these guidelines for committing:
+
+* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
+
+* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+
+* Don't commit half-done work, for the sake of your collaborators (and your future self!).
+
+* Test your application before you commit to ensure functionality at every step in the development process.
+
+We would like you to have well over 200 commits by graduation, so commit early and often!
+
+
+## Submission on BCS
+
+You are required to submit the following:
+
+* The URLs of the deployed applications
+
+* The URLs of the GitHub repositories
+
+- - -
+
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
