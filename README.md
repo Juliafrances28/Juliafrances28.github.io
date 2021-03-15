@@ -13,11 +13,7 @@
      * [License](#License)
      
   ## Description
-  Create a mobile responsive porfolio using bootstrap. The site should  include a navbar, responsive layout and images.  
-
-
-  ## Usage 
-  To should a professional presentation of myself. 
+  Create a mobile responsive porfolio using bootstrap. The site should  include a navbar, responsive layout and images.   
 
   ## license 
    MIT
