@@ -1,6 +1,3 @@
-# juliafrances28.github.io 
-
-
 
   # Responsive Portfolio 
 
