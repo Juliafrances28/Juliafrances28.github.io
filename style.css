@@ -14,10 +14,9 @@ body {
   margin: 0 auto;
   padding: 20px;
   border-radius: 50px;
-  /* learn how to round a photo edges */
 }
 
-/* This property references the p tags in both the homepage and porfolio page. */
+/* This property references the p tags in the homepage. */
 P {
   vertical-align: 25px;
   font-size: 18px;
