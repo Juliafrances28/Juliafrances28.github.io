@@ -4,11 +4,6 @@ body {
 
 /* This property is referenced in initial div tag. it is for the homepage concerning the two photos. */
 
-/* .nav-link,
-.navbar-brand {
-  color: aqua;
-} */
-
 .imghome {
   display: Block;
   margin: 0 auto;
@@ -18,38 +13,52 @@ body {
   /* learn how to round a photo edges */
 }
 
-/* This property references the p tags in both the homepage and porfolio page. */
-P {
+/* This property references the p tags in the homepage. */
+.paragraph {
   vertical-align: 25px;
   font-size: 18px;
   padding: 20px;
   line-height: 1.5;
 }
 
+/* This property refers to the homepage */
 #March {
   margin-top: 20px;
 }
 
 /* This property references the images in the portfolio page */
-/* .style {
-  width: 20px;
-  text-align: center;
+.project {
   display: block;
-  margin: 0 auto;
+  margin-bottom: 30px;
   padding: 20px;
   border-radius: 50px;
+  width: 80%;
+  float: left;
+  margin-bottom: 50px;
 }
- */
 
-/* This property references the image tags on the portfolio page */
-.health .read {
-  width: 25px;
+/* This property references the paragraph tag for covid-19 project. class = covid */
+
+.covid {
+  margin-top: 15%;
+}
+
+/* The property reference the paragraph tag for BookBook. class = books */
+.books {
+  margin-top: 60%;
+}
+
+/* The property references the paragraph tag for theresfoodathome. class= home */
+.home {
+  margin-top: 80%;
+}
+
+/* This property references the p tags in the portfolio page. */
+.portfolio {
+  font-size: 30px;
+  padding: 20px;
+  line-height: 1.5;
   float: right;
-}
-
-/* This references the <p> tags on the portfolio page */
-.book .covid {
-  text-align: left;
 }
 
 /* This property references the card section of the contact page */
@@ -62,9 +71,8 @@ P {
 /* This property references the list section of the contact page */
 .list-unstyled {
   text-align: center;
-  font-size: 20px;
+  font-size: 40px;
 }
-
 /* This property references the image in the contact page. */
 
 .imgcon {
@@ -75,3 +83,40 @@ P {
   border-radius: 50px;
   text-align: center;
 }
+
+/* .health .read {
+  display: -msflexbox;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 50px;
+  color: red;
+  width: 65%;
+} */
+
+/* This property references the images in the portfolio page */
+
+/* .health {
+  display: Block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 50px;
+  width: 80%;
+} */
+
+/* .read {
+  display: Block;
+  padding: 20px;
+  border-radius: 50px;
+  width: 80%;
+} */
+
+/* This property references the image tags on the portfolio page 
+.health .read {
+  width: 25px;
+  float: right;
+} */
+
+/* This references the <p> tags on the portfolio page
+.book .covid {
+  text-align: left;
+} */
