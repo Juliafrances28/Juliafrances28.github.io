@@ -28,6 +28,9 @@
 
   ## Email 
   julia.horan28@gmail.com
+  
+  ## Site Link 
+  https://juliafrances28.github.io/
 
   ## Repo
   https://github.com/Juliafrances28/juliafrances28.github.io
